@@ -11,7 +11,7 @@ type myprops = {
   Posts: {}
 }
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getStaticProps: GetStaticProps<{mydata : myprops}> = async () => {
   const res = await fetch(`http://localhost:3004/Posts`)
   const mydata = await res.json()
   return { props: { mydata } }
