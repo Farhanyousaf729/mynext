@@ -106,9 +106,9 @@ export default function Home({ mydata }: any) {
                 // console.log(ele);
 
                 return (
-                  <div key={i}>
+                  <div >
                   <Link href={`/posts/${ele.id}`}>  <div className='border-[0.5px] py-12 border-[#D3AD7F] flex justify-center items-center'>
-                    <div className='text-white flex flex-col items-center' >
+                    <div key={i} className='text-white flex flex-col items-center' >
                       <Image className='' src={ele.url} alt='' width={100} height={100} />
                       <h1 className='py-2'>{ele.des}</h1>
                       <h1 className='pb-2'>{ele.price} <span className='line-through '>20.99</span></h1>
@@ -132,9 +132,9 @@ export default function Home({ mydata }: any) {
             {
               mydata.slice(6, mydata.length).map((ele: any , i:any) => {
                 return (
-                  <div key={i}>
+                  <div>
                   <Link href={`/posts/${ele.id}`}>       <div className='border-[0.5px] py-12 border-[#D3AD7F] flex justify-center items-center'>
-                    <div className='text-white flex flex-col items-center'>
+                    <div  key={i} className='text-white flex flex-col items-center'>
                       <Image src={ele.url} alt='' width={200} height={200} />
                       <h1 className='py-2 text-white'>{ele.des}</h1>
                       <h1 className='pb-2'>{ele.price} <span className='line-through '>20.99</span></h1>
