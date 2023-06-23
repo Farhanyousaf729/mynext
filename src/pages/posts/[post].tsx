@@ -11,10 +11,10 @@ type obj = {
     price: string
     description: string
 }
-const Myposts = () => {
+const MyPosts = () => {
 
 
-    const [state, setstate] = useState([])
+    const [state, setstate] = useState<obj[]>([])
     const [intial, setintial] = useState(true)
 
     const Rout = useRouter()
@@ -56,4 +56,4 @@ const Myposts = () => {
         </div>
     )
 }
-export default Myposts
+export default MyPosts
