@@ -1,0 +1,82 @@
+{
+    "home": {
+        "name": "farhan"
+    },
+    "Posts": 
+         [
+            {
+                "url": "/imgs/menu-1.png",
+                "id": "1",
+                "des": "Tasty And Healty",
+                "price": "$15.99",
+                "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo alias, quidem est ducimus praesentium laudantium quas autem vitae repellat. Quod maxime facilis soluta neque eligendi! Aliquam corporis nostrum perferendis."
+            },
+            {
+                "url": "/imgs/menu-2.png",
+                "id": "2",
+                "des": "Tasty And Healty",
+                "price": "$15.99",
+                "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo alias, quidem est ducimus praesentium laudantium quas autem vitae repellat. Quod maxime facilis soluta neque eligendi! Aliquam corporis nostrum perferendis."
+
+            },
+            {
+                "url": "/imgs/menu-3.png",
+                "id": "3",
+                "des": "Tasty And Healty",
+                "price": "$15.99",
+                "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo alias, quidem est ducimus praesentium laudantium quas autem vitae repellat. Quod maxime facilis soluta neque eligendi! Aliquam corporis nostrum perferendis."
+
+            },
+            {
+                "url": "/imgs/menu-4.png",
+                "id": "4",
+                "des": "Tasty And Healty",
+                "price": "$15.99",
+                "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo alias, quidem est ducimus praesentium laudantium quas autem vitae repellat. Quod maxime facilis soluta neque eligendi! Aliquam corporis nostrum perferendis."
+
+            },
+            {
+                "url": "/imgs/menu-5.png",
+                "id": "5",
+                "des": "Tasty And Healty",
+                "price": "$15.99",
+                "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo alias, quidem est ducimus praesentium laudantium quas autem vitae repellat. Quod maxime facilis soluta neque eligendi! Aliquam corporis nostrum perferendis."
+
+            },
+            {
+                "url": "/imgs/menu-6.png",
+                "id": "6",
+                "des": "Tasty And Healty",
+                "price": "$15.99",
+                "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo alias, quidem est ducimus praesentium laudantium quas autem vitae repellat. Quod maxime facilis soluta neque eligendi! Aliquam corporis nostrum perferendis."
+
+            },
+            {
+                "url": "/imgs/product-1.png",
+                "id": "7",
+                "des": "Fresh Coffee",
+                "price": "$15.99",
+                "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo alias, quidem est ducimus praesentium laudantium quas autem vitae repellat. Quod maxime facilis soluta neque eligendi! Aliquam corporis nostrum perferendis."
+
+            },
+            {
+                "url": "/imgs/product-2.png",
+                "id": "8",
+                "des": "Fresh Coffee",
+                "price": "$15.99",
+                "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo alias, quidem est ducimus praesentium laudantium quas autem vitae repellat. Quod maxime facilis soluta neque eligendi! Aliquam corporis nostrum perferendis."
+
+            },
+            {
+                "url": "/imgs/product-3.png",
+                "id": "9",
+                "des": "Fresh Coffee",
+                "price": "$15.99",
+                "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo alias, quidem est ducimus praesentium laudantium quas autem vitae repellat. Quod maxime facilis soluta neque eligendi! Aliquam corporis nostrum perferendis."
+
+            }
+        ]
+    
+        
+   
+}
