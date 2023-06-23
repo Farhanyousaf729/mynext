@@ -11,7 +11,7 @@ type obj = {
     price: string
     description: string
 }
-const myposts = () => {
+const Myposts = () => {
 
 
     const [state, setstate] = useState<obj[]>([])
@@ -56,4 +56,4 @@ const myposts = () => {
         </div>
     )
 }
-export default myposts
+export default Myposts
