@@ -14,7 +14,7 @@ type obj = {
 const Myposts = () => {
 
 
-    const [state, setstate] = useState<obj[]>([])
+    const [state, setstate] = useState([])
     const [intial, setintial] = useState(true)
 
     const Rout = useRouter()
