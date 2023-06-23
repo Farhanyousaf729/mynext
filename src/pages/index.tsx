@@ -130,8 +130,9 @@ export default function Home({ mydata }: any) {
           <h1 className='text-center text-5xl font-bold text-white pb-10'>OUR <span className='text-[#D3AD7F]'>PRODUCTS</span></h1>
           <div className='sm:grid grid-cols-2 lg:grid-cols-3 gap-2 '>
             {
-              mydata.slice(6, mydata.length).map((ele: any) => {
+              mydata.slice(6, mydata.length).map((ele: any , i:any) => {
                 return (
+                  <div key={i}>
                   <Link href={`/posts/${ele.id}`}>       <div className='border-[0.5px] py-12 border-[#D3AD7F] flex justify-center items-center'>
                     <div className='text-white flex flex-col items-center'>
                       <Image src={ele.url} alt='' width={200} height={200} />
@@ -140,6 +141,8 @@ export default function Home({ mydata }: any) {
                       <button className='text-white py-2 px-6 bg-[#D3AD7F]'>Add To Cart</button>
                     </div>
                   </div></Link>
+
+                  </div>
                 )
               })
             }
