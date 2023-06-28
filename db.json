@@ -72,7 +72,7 @@
                 "id": "9",
                 "des": "Fresh Coffee",
                 "price": "$15.99",
-                "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo alias, quidem est ducimus praesentium laudantium quas autem vitae repellat. Quod maxime facilis soluta neque eligendi! Aliquam corporis nostrum perferendis."
+                "description" : "Lorem,   ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo alias, quidem est ducimus praesentium laudantium quas autem vitae repellat. Quod maxime facilis soluta neque eligendi! Aliquam corporis nostrum perferendis."
 
             }
         ]
